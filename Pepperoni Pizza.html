@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .pizza {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      a:link,
+      a:visited {
+        background-color: rgba(108, 72, 56, 0);
+        font-family: Arial, Helvetica, sans-serif;
+
+        color: rgb(233, 233, 233);
+        border: 2px solid rgb(7, 7, 7);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      a:hover,
+      a:active {
+        background-color: rgb(233, 233, 233);
+        color: rgb(108, 72, 56);
+        font-size: large;
+      }
+
+      .dropbtn {
+        background-color: #4caf4f00;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(233, 233, 233);
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border: 2px solid rgb(7, 7, 7);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: rgb(108, 72, 56);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(108, 72, 56);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: rgb(233, 233, 233);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: rgb(233, 233, 233);
+        color: rgb(108, 72, 56);
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: rgb(233, 233, 233);
+        color: rgb(108, 72, 56);
+      }
+      h1 {
+        font-size: 50px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      h3 {
+        font-family: "Times New Roman", Times, serif;
+        color: rgb(108, 72, 56);
+        font-size: 25px;
+      }
+      p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+      }
+
+      h1 {
+        border: solid;
+        background-color: rgb(108, 72, 56);
+        color: white;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+      }
+      h2 {
+        position: absolute;
+        left: 500px;
+        top: 1200px;
+        font-family: Helvetica, sans-serif;
+        color: #5c5c5c;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <title>Pizza Heaven</title>
+
+    <img class="pizza" src="border.png" />
+
+    <div style="position: absolute; left: 200px; top: 30px">
+      <a href="Home.html">Home </a>
+    </div>
+
+    <div style="position: absolute; left: 550px; top: 30px">
+      <a href="tomato sauce.html">Tomato Sauce</a>
+    </div>
+
+    <div class="dropdown" style="position: absolute; left: 750px; top: 30px">
+      <a class="dropbtn" href="mozarella.html">Mozarella Cheese</a>
+    </div>
+
+    <div class="dropdown" style="position: absolute; left: 350px; top: 30px">
+      <button class="dropbtn">Pizza Recipes</button>
+      <div class="dropdown-content">
+        <a href="Napolitan Pizza.html">Neapolitan Pizza Margherita</a>
+        <a href="Pepperoni Pizza.html">Pepperoni Pizza</a>
+        <a href="New York Style Pizza.html">New York Style Pizza</a>
+      </div>
+    </div>
+
+    <img
+      style="position: absolute; left: 450px; object-fit: cover;top: 200px; height: 35rem;width: 40rem;"
+      src="pepperoni-pizza..jpg"
+    />
+
+    <div style="position: absolute; left: 500px; top: 900px">
+      <h1>Pepperoni Pizza</h1>
+    </div>
+    <div>
+      <h3 style="position: absolute; left: 400px; top: 1000px">PREP TIME</h3>
+      <h3 style="position: absolute; left: 600px; top: 1000px">COOK TIME</h3>
+      <h3 style="position: absolute; left: 800px; top: 1000px">TOTAL TIME</h3>
+    </div>
+
+    <div>
+      <p style="position: absolute; left: 400px; top: 1030px">35 mins</p>
+      <p style="position: absolute; left: 600px; top: 1030px">15 mins</p>
+      <p style="position: absolute; left: 800px; top: 1030px">50mins</p>
+    </div>
+
+    <div style="position: absolute; left: 500px; top: 1100px">
+      <h1>Ingredients</h1>
+    </div>
+
+    <div>
+      <h2 style="position: absolute; left: 500px; top: 1200px">Pizza Dough</h2>
+    </div>
+    <div style="position: absolute; left: 500px; top: 1250px">
+      <p>- 1/2 Tbsp active dry yeast</p>
+      <p>- 2 Tbsp sugar</p>
+      <p>- 1/2 cups warm water</p>
+      <p>- 3 Tbsp olive oil</p>
+      <p>- 1/2 Tbsp salt</p>
+      <p>- 1 Tbsp white vinegar</p>
+      <p>- 4 cups bread flour</p>
+    </div>
+
+    <div>
+      <h2 style="position: absolute; left: 500px; top: 1450px">Toppings (yields enough for 1 13-inch pizza)</h2>
+    </div>
+
+    <div style="position: absolute; left: 500px; top: 1500px">
+      <p>- shredded mozzarella cheese (8oz / 200g)</p>
+      <p>- Tomato sauce</p>
+      <p>- slices pepperoni</p>
+      <p>- 1 Tbsp olive oil</p>
+      <p>- fresh oregano </p>
+    </div>
+
+    <div>
+      <h2 style="position: absolute; left: 500px; top: 1650px">Making The Dough</h2>
+    </div>
+
+    <div style="position: absolute; left: 500px; top: 1700px">
+      <p>In the bowl of an electric stand mixer, combine yeast, 2 tsp sugar and 1/2 cup warm water and whisk until yeast has dissolved. Allow to rest 5 minutes. Add in remaining 1 cup warm water, olive oil, salt and vinegar. Fit mixer with whisk attachment, set on low speed and slowly add in 4 cups of the flour and mix until combined, 
+        until dough is smooth and elastic (dough should be slightly sticky but should not stick to a clean fingertip). Cover bowl with plastic wrap and allow to rest in a warm place until doubled, about 30 mins.</p>
+
+   
+
+    <img
+      style="position: absolute; left: 0px; top: 150px; object-fit: cover;height: 32rem;width: 40rem;"
+      src="pepperoni-pizza-step1..jpg"
+    />
+
+    <div style="position: absolute; left: 0px; top: 150px">
+      <p
+        style="
+          font-size: 80px;
+          color: white;
+          font-weight: bold;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        1
+      </p>
+    </div>
+
+    <div style="position: absolute; left: 0px; top: 650px">
+      <p>
+      Shape the pizza dough with your hands into a thin round pizza.Coat the pizza with the
+        <a
+          href="tomato sauce.html"
+          target="_blank"
+          style="
+            background-color: white;
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(108, 72, 56);
+            border: none;
+          "
+          >tomato sauce.</a
+        >
+      </p>
+    </div>
+
+    <div style="position: absolute; left: 0px; top: 700px">
+      <p>Leave about 1 inch on the pizza rim.</p>
+    </div>
+
+    <img
+      style="position: absolute; left: 0px; top: 750px;object-fit: cover;height: 30rem;width: 40rem;"
+      src="peppernoi-pizza-step3..jpg"
+    />
+
+    <div style="position: absolute; left: 0px; top: 750px">
+      <p
+        style="
+          font-size: 80px;
+          color: white;
+          font-weight: bold;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        2
+      </p>
+    </div>
+
+    <div style="position: absolute; left: 0px; top: 1250px">
+      <p>
+        spread the shredded mozzarella on the pizza.
+        add some pepperoni.
+      </p>
+    </div>
+
+    <img
+      style="position: absolute; left: 0px; top: 1300px;object-fit: cover;height: 30rem;width: 40rem;"
+      src="pepperoni-pizza2.jpg"
+    />
+
+    <div style="position: absolute; left: 0px; top: 1300px">
+      <p
+        style="
+          font-size: 80px;
+          color: white;
+          font-weight: bold;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        3
+      </p>
+    </div>
+
+
+    <div style="position: absolute; left: 0px; top: 1800px;height: 60px;">
+      <p>
+        Pepperoni Pizza needs about 10 to 15 minutes at 200 degrees Celsius 
+      </p>
+    </div>
+
+  </body>
+</html>
